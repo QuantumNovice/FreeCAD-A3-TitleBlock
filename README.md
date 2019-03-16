@@ -1,9 +1,9 @@
 # FreeCAD A3 Size TitleBlock
 
-##Usage
-*Copy this code to FreeCAD python console.
+## Usage
+* Copy this code to FreeCAD python console.
 * Change various strings accordingly.
-``def my_title_block():
+```def my_title_block():
     t = TitleBlock()
     t.scale = 'Scale 2:1'
     t.company = 'UET Inc.'
@@ -14,5 +14,6 @@
     t.standard = ('ISO', '2018')
     t.approver = ('A.A', '8/12/21')
     t.sheet = (1,10)
-    t.draw()``
+    t.draw()
+    ```
 * It'll automatically create title block centered at origin.
